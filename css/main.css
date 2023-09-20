@@ -2,73 +2,68 @@ body{
     background-color:#CCCCCC;
     width: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 nav{
-    display: inline-flex;
-    flex-wrap: wrap;
+    background-image: url("circuitos.png");
+    background-color: #eaebeb;
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     height: auto;
-    background-color: #034A91;
+    margin: auto;
 }
 
-nav #menu{
-    margin-right: auto;
-    /*background-color: aquamarine;*/
+nav #logo{
     width: auto;
     height: auto;
-    
+    margin: auto;
+    padding-top: 1em;
 }
 
-
-nav #menu img{
-    /*display:inline-flex;*/
+#menu{
+    display:inline-flex;
+    background-color:#eaebeb;
+    justify-content: center;
+    width: 100%;
+    height: auto;
     margin: auto;
-    text-align: center;
-    width: auto; 
-    height: 90%;
-    
 }
 
-nav ul{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
-    margin: auto;
-    /*background-color: bisque;*/
+#menu ul{
+    display:flex;
+    width:auto;
+    height: 100%;
+    /*background-color: gray;*/
     list-style-type: none;
-    width: auto;
-   
-    
+    padding: .25em;
 }
 
- li:hover{
-    color: #99ddff;
+ul li{
+    color: black;
+    padding: 1em;
+    padding-top: 1em;
 }
 
-
-
-nav ul li{
-    color: #CCCCCC;
-    display: inline-flex;
-    margin: auto;
-    padding: 2em;
-    flex-wrap:wrap;
-    flex-grow: 10%;
-    
+li:hover{
+    color: #2e3192;
 }
+
 
 #banner{
     width: 100%;
-    height: auto;
-    margin:auto;
+    height: 90%;
     padding: 0;
 }
 
 #banner img{
-    
-    width: 100%;
-    height:auto;
-   
+    width:100%;
+    height:100%;
+    margin:auto;
+
 }
 
 main{
@@ -192,7 +187,6 @@ footer img{
     height: auto;
     margin: auto;
     display:flex;
-    margin-left
     padding: .15em;
     margin-left: 9%;
 }
