@@ -1,74 +1,58 @@
 body{
-    
     margin: 0;
     padding:0;
+    width: auto;
+    height: auto;
 }
-    
+
+header{
+  width: 100%;
+  height: auto;
+  bottom: auto;
+  top:auto;
+}
+
+
+aside{
+    background-color: #EAEBEB;
+    width:100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#banner{
+    
+    width: 100%;
+    height: 100%;;
+    margin: auto;
+}
+
+#banner img{
+    width: auto;
+    height: 50%;
+    margin: auto;
+}
 
 nav{
-    display: inline-flex;
-    background-color: #BCCCD3;
-    text-align: center;
-}
-
-#logo{
-    margin: auto;
-    padding: .5em;
-    background-color: #034A91;
-    width: auto;
-    height: auto;
-    text-align: center; 
-}
-
-
-hr{
-    background-color: #BCCCD3;
-}
-
-nav p{
-    background-color: #BCCCD3;
-    text-align: center;
-    width: auto;
-    height: auto;
-    font-size: 1.5em;
-    padding: .5em;
-    color:#034A91;
+    background-image: url("../images/circuitos.png");
+    background-color: #eaebeb;
+    background-repeat:repeat-x;
+    background-position-x: center;
+    background-blend-mode:color-burn;
     
-}
-
-.input-field{
-    background-color: #BCCCD3;
-    text-align: center;
-    width: auto;
-    height: auto;
-    margin: auto;
-}
-
-#NYC{
-    background-color: #BCCCD3;
     margin: auto;
     width: auto;
     height: auto;
     text-align: center;
+    position: sticky;
 }
 
-main{
-    background-color: #BCCCD3;
-    text-align: center;
-    border-color: #034A91;
+header nav img{
+    padding-top: 1em;
+    padding-bottom: .5em;
 }
-
-main form{
-    margin: auto;
-    padding:.5em;
-    width: 100%;
-    height: auto;
-}
-
-
-main #arrendamiento, #confidente, #compraventa{
-    color:#034A91;
-    margin: auto;
-    text-align: center;
-    font-size: 1.2em;
+aside p{
+    font-size: 1.3em;
+    font-style: bold;
 }

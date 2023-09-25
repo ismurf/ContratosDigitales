@@ -135,7 +135,8 @@ font-size: 1.3em;
     
 }
 
-#img1{
+.grid1 .item2 #img1{
+    display:grid;
     width: 49%;
     height:auto;
     background-blend-mode:color-burn;
@@ -146,7 +147,6 @@ font-size: 1.3em;
 .grid1{
     
     background-color:#eaebeb;
-    
     display: grid; 
     /*grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -154,15 +154,22 @@ font-size: 1.3em;
     grid-row-gap: 0px;*/
     grid-template-columns: repeat(2, minmax(auto, auto));
     grid-template-rows: repeat(2, 1fr);
-    gap: 5px;
     grid-template-areas: "imagen1 texto";
     gap:0;
+}
 
-
+.noticias .grid1{
+    grid-template-rows: auto auto;
+    grid-area: "imagen1";
+    grid-area: "texto";
 }
 
 .grid1 .item2{
     background-image: url("../images/circuitos.png");
+    background-position-x: center;
+    background-blend-mode:color-burn;
+    width: auto;
+    height: auto;
     
 }
 .item1{
@@ -172,11 +179,7 @@ font-size: 1.3em;
     
 }
 
-.noticias .grid1{
-    grid-template-rows: auto 50%;
-    grid-area: "imagen1";
-    grid-area: "texto";
-}
+
 
 
 main{
@@ -205,10 +208,7 @@ main{
 #MC1 {
     background-color: #054172;
     border-radius: 8%;
-    padding: .20em;
-   
-    
-       
+    padding: .20em; 
     /*grid-column-start: 2;
     grid-column-end: span col2-start;
     grid-row-start: 2;
@@ -217,9 +217,6 @@ main{
     margin: auto;
     width: auto;
     height: auto;
-    
-    
-
 }
 
 #MC1 img{
@@ -233,16 +230,12 @@ main{
  
 
 #MC2 {
-    
     background-color: #054172;
     border-radius: 8%;
     padding: 5%;
     margin: auto;
     width: auto;
     height: auto;
-    
-    
-
 }
 
 #MC2 img{
@@ -251,9 +244,6 @@ main{
     height: auto;
     padding: .15em;
 }
-
-
-
 
 #MC3 {
     border-radius: 8%;
@@ -283,19 +273,17 @@ footer{
 }
 
 footer img{
-    
     display:inline-flex;
     justify-content: space-between;
     width:60%;
     height: auto;
     margin: auto;
     margin-left: 40%;
-    
 }
 
 #redes{
     
-    width: auto;
+    width: 60%;
     height: auto;
     margin: auto;
     display:flex;
@@ -309,14 +297,15 @@ footer img{
     color: #99ddff;
     border-left: 2em;
     margin-left: 20em;
+    margin: auto;
     text-align:justify;
-    font-size: .95em;
+    font-size: .92em;
+    padding:1.2em;
 }
 
 
 
 
-/*CARRUSEL*/
 
 
 
