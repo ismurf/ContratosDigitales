@@ -27,7 +27,7 @@ main{
 }
 
 main form{
-    background-color: aqua;
+    /*background-color: aqua;*/
     width: 53%;
     height: auto;
     margin: auto;
@@ -35,36 +35,43 @@ main form{
 }
 
 .parent{
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
     display:inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     gap:1%;
 }
+/*estilos de los elementos de la grid a través de la clase .item*/
 
 .item{
-    background-color: indigo;
-    color: pink;
+    /*background-color: indigo;*/
+    color:gray;
+    margin:0;
+    padding:.3em;
 }
 
+/*estilos de los elementos del formulario*/
+.fecha{
+    font-size: 1em;
+    line-height:auto;
+}
 
- .calendario[type="date"] {
+ .calendario [type="date"] {
     /*display:none;*/
     /*appearance: none;*/
     color: gray;
     /*color: #1D1D1D;*/
-    font-family: “Helvetica”, arial, sans-serif;
     text-align: center;
     border:.1em solid #ECF0F1;
     background:#ECF0F1;
-    padding: 1%;
-    margin: center;
+    
+    
     /*display: inline-block;*/
     visibility: visible;
     width: auto;
     }
 
-    .calendario[type="date"]:focus {
+    .calendario [type="date"]:focus {
     color: #495057;
     background-color: #FFFFFF;
     border-color: #80BDFF;
@@ -74,9 +81,10 @@ main form{
 
 
     .Partes{
-        color: pink;
+        color: gray;
         font-size: 1.5em;
-        background-color: gray;
+        text-align:center;
+        /*background-color: gray;*/
         
     }
 
