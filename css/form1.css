@@ -1,4 +1,9 @@
+
+:root{
+    background-color: #7fc4f3;
+}
 body{
+    
     margin: 0;
     padding:0;
     width: auto;
@@ -6,6 +11,7 @@ body{
 }
 
 header{
+  background-color: #599fce;
   width: 100%;
   height: auto;
   bottom: auto;
@@ -22,7 +28,7 @@ aside{
 }
 
 main{
-    background-color: beige;
+    background-color:#EAEBEB;
     margin: auto;
 }
 
@@ -45,7 +51,7 @@ main form{
 
 .item{
     /*background-color: indigo;*/
-    color:gray;
+    color:#2e3192;
     margin:0;
     padding:.3em;
 }
@@ -81,14 +87,29 @@ main form{
 
 
     .Partes{
-        color: gray;
+        color: #2e3192;
         font-size: 1.5em;
         text-align:center;
         /*background-color: gray;*/
         
     }
 
+#frases{
+    width: 100%;
+    margin: auto;
+    background-color: #2e3192;
+    font-size: 2em;
+    font-style: italic;
+    font-weight:lighter;
+    color:#2e3192;
+}
 
+#Montesquieu{
+    color: #eaebeb;  
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
 
 
 nav{
